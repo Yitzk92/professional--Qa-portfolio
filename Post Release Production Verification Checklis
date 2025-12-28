@@ -1,0 +1,13 @@
+# Post Release Production Verification Checklist
+
+## Purpose
+Ensure production system is stable after deployment.
+
+## Checklist
+- Application loads successfully
+- Login / Registration working
+- Key business flows working
+- No major UI or UX break
+- Error logs monitored
+- No unusual traffic or failures
+- Rollback plan confirmed ready
