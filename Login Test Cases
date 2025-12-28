@@ -1,0 +1,140 @@
+# Login Test Cases
+
+This document contains core manual test cases for the Login feature.
+
+## Scope
+- Valid and invalid credentials
+- UI and UX behavior
+- Security and session-related scenarios
+
+---
+
+## Test Case 1 – Successful Login with Valid Credentials
+
+**ID:** TC_LOGIN_001  
+**Priority:** High  
+**Preconditions:**  
+- User account exists and is active  
+
+**Steps:**
+1. Navigate to the Login page  
+2. Enter a valid email/username  
+3. Enter a valid password  
+4. Click on the "Login" button  
+
+**Expected Result:**  
+- User is authenticated successfully  
+- User is redirected to the main dashboard/home page  
+- User’s name or avatar is visible in the header
+
+---
+
+## Test Case 2 – Login Failure with Invalid Password
+
+**ID:** TC_LOGIN_002  
+**Priority:** High  
+
+**Steps:**
+1. Navigate to the Login page  
+2. Enter a valid email/username  
+3. Enter an invalid password  
+4. Click on the "Login" button  
+
+**Expected Result:**  
+- User is not logged in  
+- A clear error message is displayed:  
+  “Invalid username or password”  
+- Password field is cleared or remains masked  
+- No sensitive information is exposed
+
+---
+
+## Test Case 3 – Login with Empty Fields
+
+**ID:** TC_LOGIN_003  
+**Priority:** Medium  
+
+**Steps:**
+1. Open the Login page  
+2. Leave username and password fields empty  
+3. Click on the "Login" button  
+
+**Expected Result:**  
+- Form is not submitted  
+- Validation messages are shown under/near the fields:  
+  “Username is required”, “Password is required”  
+
+---
+
+## Test Case 4 – Locked/Disabled User Login
+
+**ID:** TC_LOGIN_004  
+**Priority:** High  
+
+**Preconditions:**  
+- User account is locked/disabled by admin  
+
+**Steps:**
+1. Navigate to Login page  
+2. Enter locked user credentials  
+3. Click "Login"  
+
+**Expected Result:**  
+- Login is blocked  
+- User sees a specific message:  
+  “Your account is locked. Please contact support.”  
+- No session is created
+
+---
+
+## Test Case 5 – Session Timeout After Login (Security)
+
+**ID:** TC_LOGIN_005  
+**Priority:** High  
+
+**Steps:**
+1. Log in with valid credentials  
+2. Stay idle until session timeout (e.g. 30 minutes)  
+3. Try to navigate to a protected page or perform an action  
+
+**Expected Result:**  
+- User is redirected to Login page  
+- Clear message: “Your session has expired. Please log in again.”  
+- No protected data is shown without re-authentication
+
+---
+
+## Test Case 6 – Remember Me Functionality
+
+**ID:** TC_LOGIN_006  
+**Priority:** Medium  
+
+**Steps:**
+1. On Login page, enter valid credentials  
+2. Check “Remember me” option  
+3. Login successfully  
+4. Close browser  
+5. Reopen browser and navigate to the site  
+
+**Expected Result:**  
+- User remains logged in (if allowed by requirements)  
+- No need to re-enter credentials  
+- Session behavior is consistent with security policy
+
+---
+
+## Test Case 7 – Error Handling on Backend Failure
+
+**ID:** TC_LOGIN_007  
+**Priority:** High  
+
+**Steps:**
+1. Navigate to Login page  
+2. Enter valid credentials  
+3. Simulate backend down / 500 error (or observe during outage)  
+
+**Expected Result:**  
+- User sees a generic but clear error message:  
+  “We’re experiencing technical issues. Please try again later.”  
+- No sensitive technical details are exposed (no stack traces)
+
