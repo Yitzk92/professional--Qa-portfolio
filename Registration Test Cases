@@ -1,0 +1,135 @@
+# Registration Test Cases
+
+This document contains core manual test cases for the User Registration / Sign Up feature.
+
+## Scope
+- Positive and negative registration scenarios
+- Validation and error handling
+- Security behavior
+- UX consistency
+
+---
+
+## Test Case 1 – Successful Registration with Valid Data
+**ID:** TC_REG_001  
+**Priority:** Critical  
+
+**Steps:**
+1. Navigate to Registration page
+2. Enter valid username
+3. Enter valid email
+4. Enter strong password
+5. Confirm password
+6. Click "Sign Up"
+
+**Expected Result:**
+- Account is created successfully  
+- User is redirected to homepage / login page  
+- Success confirmation message appears  
+
+---
+
+## Test Case 2 – Registration with Existing Email
+**ID:** TC_REG_002  
+**Priority:** High  
+
+**Steps:**
+1. Go to Registration page  
+2. Enter an email already registered  
+3. Fill valid remaining fields  
+4. Click "Sign Up"
+
+**Expected Result:**
+- Registration is blocked  
+- Clear message is displayed:  
+  “Email already exists”  
+- No duplicate account created  
+
+---
+
+## Test Case 3 – Weak Password Validation
+**ID:** TC_REG_003  
+**Priority:** High  
+
+**Steps:**
+1. Enter valid email and username  
+2. Enter weak password (e.g., 12345)  
+3. Try to submit  
+
+**Expected Result:**
+- Form is not submitted  
+- User sees clear message with password rules  
+
+---
+
+## Test Case 4 – Empty Fields Submission
+**ID:** TC_REG_004  
+**Priority:** Medium  
+
+**Steps:**
+1. Open Registration page  
+2. Leave all fields empty  
+3. Click "Sign Up"
+
+**Expected Result:**
+- No form submission  
+- Required field validation messages are displayed  
+
+---
+
+## Test Case 5 – Invalid Email Format
+**ID:** TC_REG_005  
+**Priority:** Medium  
+
+**Steps:**
+1. Enter invalid email (example: test@com or hello)  
+2. Fill valid other fields  
+3. Click Register  
+
+**Expected Result:**
+- Form is blocked  
+- User sees: “Invalid email format”  
+
+---
+
+## Test Case 6 – Password and Confirm Password Mismatch
+**ID:** TC_REG_006  
+**Priority:** High  
+
+**Steps:**
+1. Enter valid password  
+2. Enter different value in confirm password  
+3. Submit  
+
+**Expected Result:**
+- Registration blocked  
+- Message: “Password and confirm password do not match”  
+
+---
+
+## Test Case 7 – Email Verification Flow
+**ID:** TC_REG_007  
+**Priority:** High  
+
+**Steps:**
+1. Register with valid details  
+2. Check email inbox  
+3. Click verification link  
+
+**Expected Result:**
+- Account marked as verified  
+- Successful confirmation message  
+- User can now login normally  
+
+---
+
+## Test Case 8 – Security: No Sensitive Data Exposure
+**ID:** TC_REG_008  
+**Priority:** High  
+
+**Steps:**
+1. Submit form during server failure / 500 error  
+
+**Expected Result:**
+- Generic user-friendly error message  
+- No stack trace / technical details exposed  
