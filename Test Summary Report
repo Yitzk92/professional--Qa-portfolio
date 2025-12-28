@@ -1,0 +1,27 @@
+# Test Summary Report
+
+## 1. Overview
+Brief summary of what was tested and why.
+
+## 2. Test Scope
+- Modules tested
+- Out of scope areas
+
+## 3. Execution Status
+- Total test cases:
+- Passed:
+- Failed:
+- Blocked:
+- Skipped:
+
+## 4. Defect Summary
+- Critical:
+- High:
+- Medium:
+- Low:
+
+## 5. Risks & Observations
+Explain key findings and business impact.
+
+## 6. Recommendation
+Go / No-Go decision for release.
