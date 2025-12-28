@@ -1,0 +1,71 @@
+# Application Test Plan
+
+## 1. Introduction
+This document defines the overall testing strategy, scope, objectives, resources 
+and timeline required to ensure high-quality delivery of the application.
+
+## 2. Objectives
+- Ensure the system meets business requirements
+- Verify core functionality works as expected
+- Detect functional, usability, performance and security issues
+- Minimize production defects and risks
+
+## 3. Scope
+### In Scope
+- Functional testing
+- UI & UX testing
+- API testing
+- Regression & Smoke testing
+- Basic performance validation
+- Security awareness checks
+
+### Out of Scope
+- Full penetration testing
+- Deep load & stress engineering
+- Hardware compatibility testing
+
+## 4. Testing Types
+- Manual Functional Testing
+- Regression Testing
+- Smoke & Sanity Testing
+- Usability Testing
+- API Testing
+- Negative Testing
+- Compatibility Testing
+
+## 5. Test Environment
+- Web application
+- Browsers: Chrome, Edge, Firefox
+- Devices: Desktop + Mobile responsive
+- Tools: Chrome DevTools, Postman, (optional) BrowserStack
+
+## 6. Entry Criteria
+- Requirements defined
+- Build ready
+- Test data prepared
+
+## 7. Exit Criteria
+- All critical & high bugs fixed
+- Major functionalities tested
+- No blocking defects
+- Test sign-off completed
+
+## 8. Risk Management
+### Possible Risks
+- Late requirement changes
+- Unstable builds
+- Limited testing time
+
+### Mitigation
+- Clear communication
+- Prioritization of high-risk areas
+- Regression focus
+
+## 9. Deliverables
+- Test Plan
+- Test Cases
+- Bug Reports
+- Test Summary Report
+
+## 10. Approval
+This document requires approval by QA Lead / Product Owner before execution.
