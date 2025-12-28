@@ -1,0 +1,21 @@
+# Environment & Configuration Testing Cases
+
+## Scope
+Ensure system works correctly in different environments.
+
+---
+
+## TC_ENV_001 – Staging vs Production Behavior
+Expected: No unexpected differences.
+
+## TC_ENV_002 – Browser Compatibility
+Expected: Chrome / Edge / Firefox work consistently.
+
+## TC_ENV_003 – Feature Flags
+Expected: Disabled features remain inaccessible.
+
+## TC_ENV_004 – Configuration Change Handling
+Expected: System reacts safely and predictably.
+
+## TC_ENV_005 – Version Rollback
+Expected: No corruption or broken functionality.
