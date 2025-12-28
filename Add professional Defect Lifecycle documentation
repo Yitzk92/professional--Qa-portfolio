@@ -1,0 +1,31 @@
+# Defect Lifecycle
+
+## Purpose
+Defines the full lifecycle of a defect from discovery to closure to ensure
+clear communication, prioritization and resolution flow.
+
+## Defect Status Flow
+New → Open → Assigned → In Progress → Fixed → Retest → Verified → Closed
+
+## Possible Additional States
+- Rejected
+- Deferred / Postponed
+- Duplicate
+- Cannot Reproduce
+
+## Priority Levels
+P1 – Critical  
+P2 – High  
+P3 – Medium  
+P4 – Low
+
+## Severity Levels
+S1 – System crash / data loss  
+S2 – Major functionality broken  
+S3 – Minor impact  
+S4 – Cosmetic / UI
+
+## Closure Criteria
+- Fix verified
+- No regression impact
+- Approved by QA
