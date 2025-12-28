@@ -1,0 +1,31 @@
+# Performance & Load Testing Strategy
+
+## Objectives
+- Validate system stability under load
+- Identify performance bottlenecks
+- Ensure acceptable response time
+
+## Scope
+- Critical user flows
+- API endpoints
+- Major business transactions
+
+## Key Metrics
+- Response time
+- Throughput
+- Error rate
+- System resource usage
+
+## Execution Approach
+- Baseline testing
+- Load testing
+- Stress testing
+- Spike testing
+
+## Tools
+JMeter / k6 / Gatling (future automation)
+
+## Success Criteria
+- Stable application behavior
+- Acceptable response time
+- No critical failures
