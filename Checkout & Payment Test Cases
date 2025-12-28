@@ -1,0 +1,46 @@
+# Checkout & Payment Test Cases
+
+## Scope
+Covers checkout flow, order validation, payment handling and error behavior.
+
+---
+
+## TC_CHK_001 – Successful Checkout with Valid Card
+Priority: Critical  
+Expected: Order completes successfully, confirmation page shown, email sent.
+
+---
+
+## TC_CHK_002 – Declined Payment Card
+Priority: Critical  
+Expected: User sees friendly decline message, order NOT created.
+
+---
+
+## TC_CHK_003 – Empty Cart Checkout Attempt
+Priority: High  
+Expected: Action blocked with message: "Cart is empty"
+
+---
+
+## TC_CHK_004 – Refresh During Checkout
+Priority: Medium  
+Expected: Cart persists, no data loss.
+
+---
+
+## TC_CHK_005 – Duplicate Payment Protection
+Priority: Critical  
+Expected: System prevents double charging.
+
+---
+
+## TC_CHK_006 – Network Failure Handling
+Priority: High  
+Expected: Retry option + safe fail behavior.
+
+---
+
+## TC_CHK_007 – Saved Card / Token Payment
+Priority: High  
+Expected: Token validated securely, no sensitive data exposed.
