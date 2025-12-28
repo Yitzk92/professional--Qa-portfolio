@@ -1,0 +1,12 @@
+# Release Readiness Checklist
+
+## Purpose
+Ensure product is ready for production.
+
+## Checklist
+- All critical features tested
+- No blocking bugs
+- High + Critical defects resolved
+- Test Summary Report completed
+- Stakeholder approval received
+- Backup / rollback plan prepared
