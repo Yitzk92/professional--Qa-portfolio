@@ -1,0 +1,14 @@
+# Security & Privacy QA Checklist
+
+## Purpose
+Ensure system is safe, respects privacy and reduces legal risk.
+
+## Checklist
+- No sensitive data exposed in UI / logs
+- Error messages do not reveal system details
+- Authentication & session handling verified
+- Password not stored or displayed
+- Data protected over HTTPS
+- Token/session invalidation tested
+- User role & access permissions validated
+- GDPR awareness checks
