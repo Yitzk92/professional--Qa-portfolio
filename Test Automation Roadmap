@@ -1,0 +1,19 @@
+# Test Automation Roadmap
+
+## Vision
+Gradually introduce automation to improve efficiency and coverage.
+
+## Phase 1 – Preparation
+- Identify automation candidates
+- Select tools (Selenium / Cypress / Playwright)
+- Define framework structure
+
+## Phase 2 – Implementation
+- Automate high priority regression cases
+- Build stable test suites
+- Integrate with CI pipeline
+
+## Phase 3 – Expansion
+- API automation
+- Performance automation
+- Full CI/CD integration
