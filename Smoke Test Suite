@@ -1,0 +1,20 @@
+# Smoke Test Suite
+
+Purpose:
+To quickly verify that the main functionalities of the system are stable 
+and application is testable.
+
+---
+
+## Included Areas
+- Login
+- Registration
+- Homepage load
+- Basic navigation
+- Cart functionality
+- Checkout flow
+
+---
+
+## Criteria
+If any smoke test fails → build is rejected.
