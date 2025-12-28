@@ -1,0 +1,15 @@
+# Regression Testing Strategy
+
+## Purpose
+Ensure that new changes do not break existing functionality.
+
+## When Performed
+- After major releases
+- After bug fixes
+- Before production deployment
+
+## Approach
+- High risk modules tested first
+- Critical flows always included
+- Automation (future planned)
+- Manual verification of sensitive areas
