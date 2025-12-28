@@ -1,0 +1,21 @@
+# Accessibility Test Cases (WCAG Awareness)
+
+## Scope
+Ensures basic accessibility compliance and usability for all users.
+
+---
+
+## TC_ACC_001 – Keyboard Navigation Support
+Expected: Full navigation possible without mouse.
+
+## TC_ACC_002 – Screen Reader Compatibility
+Expected: Logical reading order and alt text.
+
+## TC_ACC_003 – Contrast Ratio
+Expected: Text readable in normal and high contrast mode.
+
+## TC_ACC_004 – Form Error Announcements
+Expected: Errors are announced clearly to assistive tools.
+
+## TC_ACC_005 – Focus Visible
+Expected: Focus highlight visible clearly.
