@@ -1,0 +1,19 @@
+# Bug Reporting Guidelines
+
+## Purpose
+Ensure all reported defects are clear, reproducible and actionable.
+
+## Good Bug Report Must Include
+- Clear title
+- Environment details
+- Steps to reproduce
+- Expected result
+- Actual result
+- Severity & priority
+- Screenshots / logs if applicable
+
+## Best Practices
+- Be objective and factual
+- Avoid assumptions
+- Keep it simple but detailed
+- Focus on impact
