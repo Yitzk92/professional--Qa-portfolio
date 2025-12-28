@@ -1,0 +1,16 @@
+# Boundary & Edge Case Testing Guidelines
+
+## Purpose
+Find bugs in extreme and unexpected situations.
+
+## Areas to Consider
+- Minimum and maximum values
+- Empty inputs
+- Null values
+- Very large inputs
+- Special characters
+
+## Benefits
+- Reveals hidden defects
+- Improves system stability
+- Ensures robustness
