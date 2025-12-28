@@ -1,0 +1,39 @@
+# API Test Cases
+
+## Scope
+Covers functional, validation, security and response behavior.
+
+---
+
+## TC_API_001 – Valid Request Returns 200
+Expected: Correct response body + schema
+
+---
+
+## TC_API_002 – Invalid Input Returns 400
+Expected: Meaningful error message returned
+
+---
+
+## TC_API_003 – Unauthorized Request Returns 401
+Expected: No sensitive data exposed
+
+---
+
+## TC_API_004 – Forbidden Access 403
+Expected: Access blocked correctly
+
+---
+
+## TC_API_005 – Server Error Handling 500
+Expected: No stack traces returned
+
+---
+
+## TC_API_006 – Response Time Performance
+Expected: < 2 seconds average
+
+---
+
+## TC_API_007 – Data Integrity
+Expected: No data loss or corruption
