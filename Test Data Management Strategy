@@ -1,0 +1,20 @@
+# Test Data Management Strategy
+
+## Purpose
+Ensure reliable, safe and consistent test data usage.
+
+## Key Principles
+- Use realistic but controlled data
+- Avoid dependency on production data
+- Protect sensitive information
+
+## Data Types
+- Valid data
+- Invalid data
+- Boundary values
+- Edge cases
+
+## Security Considerations
+- No personal user data exposed
+- Data anonymization recommended
+- Compliance awareness (GDPR / Privacy)
