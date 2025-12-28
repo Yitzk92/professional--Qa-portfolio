@@ -1,0 +1,21 @@
+# Mobile Testing Test Cases
+
+## Scope
+Ensures web/app works smoothly on mobile devices.
+
+---
+
+## TC_MOB_001 – Responsive Layout
+Expected: No UI breaks, layout adjusts correctly.
+
+## TC_MOB_002 – Touch Interaction
+Expected: Buttons are clickable, gestures work smoothly.
+
+## TC_MOB_003 – Slow Network Handling
+Expected: Clear loading indicators, no app crash.
+
+## TC_MOB_004 – Orientation Change
+Expected: Data not lost when rotating device.
+
+## TC_MOB_005 – Performance
+Expected: Smooth scrolling, no lag or freeze.
